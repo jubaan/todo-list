@@ -8,8 +8,8 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/jubaan/todo-list">
-    <img src="./images/enroute.png" alt="Logo" width="80" height="80">
+  <a href="https://www.microverse.org/?grsf=kfm2ej" style="background-color: #6F23FF">
+    <img src="./images/microverse.png" alt="Logo" width="50%" height="100%">
   </a>
 
   <h3 align="center">todo-list</h3>
