@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/?grsf=kfm2ej" style="background-color: #6F23FF">
-    <img src="./images/microverse.png" alt="Logo" width="50%" height="100%">
+    <img src="./images/microverse.png" alt="Logo" width="80px" height="20px">
   </a>
 
   <h3 align="center">todo-list</h3>
