@@ -8,7 +8,7 @@
 
 <br />
 <p align="center">
-  <a href="https://www.microverse.org/?grsf=kfm2ej" style="background-color: #6F23FF">
+  <a href="https://www.microverse.org/?grsf=kfm2ej" style="background-color: #6F23FF" width="200px">
     <img src="./images/microverse.png" alt="Logo" width="150px">
   </a>
 
