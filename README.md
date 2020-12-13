@@ -201,7 +201,7 @@ Project Link: [todo-list](https://github.com/jubaan/tod-list)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse][microverese-url]
+* [Microverse](https://www.microverse.org/?grsf=kfm2ej)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
