@@ -12,7 +12,7 @@
     <img src="./images/microverse.png" alt="Logo" width="150px" height="150px">
   </a>
 
-  <h3 align="center">todo-list</h3>
+  <h3 align="center">JavaScript: todo-list</h3>
 
   <p align="center">
   This project is part of the <b>Microverse Full Stack Web Development</b> program.
