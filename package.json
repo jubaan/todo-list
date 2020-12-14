@@ -1,5 +1,5 @@
 {
-  "name": "TheBreakfastClub",
+  "name": "todo-list",
   "version": "1.0.0",
   "description": "",
   "private": "true",
@@ -40,13 +40,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jubaan/TheBreakfastClub.git"
+    "url": "git+https://github.com/jubaan/todo-list.git"
   },
   "keywords": [],
   "author": "Julio Añoveros <julio.ab@outlook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jubaan/TheBreakfastClub/issues"
+    "url": "https://github.com/jubaan/todo-list/issues"
   },
-  "homepage": "https://github.com/jubaan/TheBreakfastClub#readme"
+  "homepage": "https://github.com/jubaan/todo-list#readme"
 }
