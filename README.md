@@ -219,4 +219,4 @@ Project Link: [todo-list](https://github.com/jubaan/tod-list)
 [license-url]: https://github.com/jubaan/todo-list/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jubaan
-[product-screenshot]: ./images/screenshot.png
+[product-screenshot]: ./images/todo-list.png
