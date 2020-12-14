@@ -3,6 +3,8 @@ export default function searchItem() {
   const list = [...document.querySelector('.list').children];
 
   form.addEventListener('keyup', (e) => {
+    e.preventDefault();
+
     const search = form.search.value.trim();
 
     list.filter((item) => !item.textContent.includes(search)).forEach((item) => item.classList.add('filtered'));
