@@ -20,7 +20,7 @@ export default class todoList {
       <li class="list-group-item d-flex justify-content-between align-items-center">
           <div>
             <input class="form-check-input me-1" type="checkbox" value="${this.content}">
-            Click on the trascan button            
+            Click on the trashcan button            
           </div>
           <i class="far fa-trash-alt delete"></i>
       </li>
