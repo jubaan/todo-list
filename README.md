@@ -20,7 +20,7 @@
     <a href="https://github.com/jubaan/todo-list"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://repl.it/@jubaan/todo-list">View Demo</a>
     ·
     <a href="https://github.com/jubaan/todo-list/issues">Report Bug</a>
     ·
@@ -45,9 +45,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#known-issues">Known Issues</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -58,22 +56,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://repl.it/@jubaan/todo-list)
+[![Product Name Screen Shot][product-screenshot]](https://affectionate-allen-765c14.netlify.app/?search=Carlos)
 
-The project consist on including on a previous project "**[employee-csv-node](https://www.github.com/jubaan/employee-cvs-node)**"
-  the use of Expressjs.
-
-Required features:
-- Http routing.
-- Return the employee's information that match the query.
-
-Additional features:
-- Docker Compose version
+The project consist on creating a **todo-list** with JavaScript.
 
 ### Built With
 
-* [Nodejs](https://nodejs.dev)
-* [Expressjs](https://expressjs.com)
 * [JavaScript](https://www.javascript.com)
 
 <!-- GETTING STARTED -->
@@ -86,8 +74,6 @@ To get a local copy up and running follow these simple example steps.
 To run this script your local environment should have at least these
 installations.
 * [Nodejs](https://nodejs.dev)
-* [Expressjs](https://expressjs.com)
-* [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/) (Optional)
 * Linux/UNIX based OS (Recommended)
 
 ### Installation
@@ -98,7 +84,7 @@ installations.
    ```
 2. Change to the newly cloned directory.
    ```sh
-   cd enroute/todo-list
+   cd todo-list
    ```
 3. Run the next command to install all needed dependencies.
    ```sh
@@ -106,68 +92,17 @@ installations.
    ```
 4. Run the next command to run the server.
    ```sh
-   node bin/employeeQuery.js
+   npm run server
    ```
 5. In your preferred browser go to:
    ```
    localhost:3000
    ```
 
-#### Run with `docker-compose`
-
-1. Follow steps 1 and 2 from <a href="#installation">Installation</a>
-
-2. Run the next command to build and run a dettach version of the docker image
-   ```sh
-   docker-compose up -d
-   ```
-
-3. To stop the detach version enter the next command in the console:
-   ```sh
-   docker-compose down
-   ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Once you start the application, and go to `localhost:3000` or `http://0.0.0.0:3050` 
-you'll be prompted with the usage instructions:
-
-1. Append the `localhost:3000` with `/employee/` + `query`.
-  ```sh
-  localhost:3000/employee/<query>
-  
-  # or docker-compose detach version
-  0.0.0.0:3050/employee/<query>
-  ```
-2. The available queries are:
-  - "**all**": This will show the list of all employees.
-    ```
-    localhost:3000/employee/all
-    
-    # or docker-compose detach version
-    0.0.0.0:3050/employee/all
-    ```
-  - The ID number of any available employee from `1` to `10`.
-    ```
-    localhost:3000/employee/10
-    
-    # or docker-compose detach version
-    0.0.0.0:3050/employee/10
-    ```
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/jubaan/todo-list/issues) for a list of proposed features (and known issues).
-
-<!-- KNOWN ISSUES -->
-## Known Issues
-
-- The project can take only the ID property, to search for the employee
-    information, any other given property like `first_name`, `last_name`,
-    `email`, or `ip_adress` is not recognized by the Http request, not
-    individualy nor mixed together.
 
 <!-- CONTRIBUTING -->
 ## Contributing
