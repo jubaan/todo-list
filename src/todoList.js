@@ -1,4 +1,4 @@
-export default class todoList {
+export default class TodoList {
   render() {
     return `<div class="container border shadow mt-5 p-4 rounded">
     <header class="text-center text-dark my-4">
@@ -30,6 +30,6 @@ export default class todoList {
       <label class="text-dark">Add a new activity...</label>
       <input class="form-control m-auto" type="text" name="item" placeholder="Add an item" />
     </form>
-  </div>`
+  </div>`;
   }
 }

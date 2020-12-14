@@ -1,13 +1,14 @@
-body{
-  background: #ffffff;
+body {
+  background: #fff;
 }
-.container{
+
+.container {
   background: #edf2f4;
   max-width: 400px;
 }
 
 input[type=text],
-input[type=text]:focus{
+input[type=text]:focus {
   color: #1c1c21;
   border: none;
   background: #dedee3;
@@ -18,7 +19,8 @@ input[type=text]:focus{
   background: #fff;
   color: #1c1c21;
 }
-.delete{
+
+.delete {
   cursor: pointer;
 }
 

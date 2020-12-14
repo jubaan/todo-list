@@ -12,6 +12,5 @@ export default function addItem() {
       list.innerHTML += new ListItem(item).render();
       form.reset();
     }
-  })
+  });
 }
-

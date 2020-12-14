@@ -10,6 +10,5 @@ export default function searchItem() {
     list.filter((item) => !item.textContent.includes(search)).forEach((item) => item.classList.add('filtered'));
 
     list.filter((item) => item.textContent.includes(search)).forEach((item) => item.classList.remove('filtered'));
-  })
+  });
 }
-
