@@ -1,0 +1,36 @@
+body {
+  background: #fff;
+}
+
+.container {
+  background: #edf2f4;
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #1c1c21;
+  border: none;
+  background: #dedee3;
+  max-width: 400px;
+}
+
+.btn {
+  background: #fff;
+  color: #1c1c21;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
