@@ -1,6 +1,6 @@
 import ListItem from './ListItem';
 
-export default function addItem() {
+const addItem = () => {
   const form = document.forms[1];
   const list = document.querySelector('.list');
 
@@ -8,9 +8,12 @@ export default function addItem() {
     e.preventDefault();
 
     const item = form.item.value.trim();
+
     if (item !== '') {
       list.innerHTML += new ListItem(item).render();
       form.reset();
     }
   });
 }
+
+export default { addItem }

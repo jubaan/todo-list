@@ -9,5 +9,5 @@ const content = document.querySelector('.content');
 content.innerHTML = new TodoList().render();
 
 addItem();
-removeItem();
+emoveItem();
 searchItem();

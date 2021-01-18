@@ -1,4 +1,4 @@
-export default function removeItem() {
+const removeItem = () => {
   const list = document.querySelector('.list');
 
   list.addEventListener('click', (e) => {
@@ -7,3 +7,5 @@ export default function removeItem() {
     }
   });
 }
+
+export default { removeItem }
