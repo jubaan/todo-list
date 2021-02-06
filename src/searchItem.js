@@ -21,4 +21,4 @@ const searchItem = () => {
   });
 };
 
-export default { searchItem };
+export default searchItem;

@@ -6,6 +6,6 @@ const removeItem = () => {
       e.target.parentElement.remove();
     }
   });
-}
+};
 
-export default { removeItem }
+export default removeItem;

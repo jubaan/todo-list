@@ -14,6 +14,6 @@ const addItem = () => {
       form.reset();
     }
   });
-}
+};
 
-export default { addItem }
+export default addItem;

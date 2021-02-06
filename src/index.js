@@ -1,13 +1,30 @@
 import './main.css';
-import TodoList from './todoList';
-import addItem from './addItem';
-import removeItem from './removeItem';
-import searchItem from './searchItem';
+import renderTodoList from './todoList';
 
-const content = document.querySelector('.content');
+if (!localStorage.getItem('todos')) {
+  const todos = [];
 
-content.innerHTML = new TodoList().render();
+  todos.push({
+    id: 1,
+    title: 'First Todo',
+    isDone: false,
+    description: 'first todo description',
+    created_at: new Date(),
+    priority: 0,
+    dueDate: new Date(),
+  });
 
-addItem();
-emoveItem();
-searchItem();
+  todos.push({
+    id: 1,
+    title: 'Second Todo',
+    isDone: true,
+    description: 'second todo description',
+    created_at: new Date(),
+    priority: 0,
+    dueDate: new Date(),
+  });
+
+  localStorage.setItem('todos', JSON.stringify(todos));
+}
+
+renderTodoList();
